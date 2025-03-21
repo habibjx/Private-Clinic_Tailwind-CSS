@@ -8,16 +8,16 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="max-w-[1840px] mx-auto bg-background text-txt-color">
+<body class="max-w-[1840px] mx-auto bg-background text-txt-color font-primary">
     
     <header class=" w-full md:px-[95px] px-[30px] h-[600px]" >
-        <nav class="flex justify-between lg:justify-start items-center gap-10 relative">
+        <nav class="flex justify-between lg:justify-start items-center gap-10 relative pt-4 sm:py-7 md:pt-8">
             <div>
                 <img class="w-[80px]" src="./img/Logo-Banner/Logo.png" alt="Logo">
             </div>
-            <label class="block lg:hidden text-2xl"><i class='bx bx-menu'></i></label>
+            <label class="block lg:hidden text-2xl text-white"><i class='bx bx-menu'></i></label>
 
-            <ul class="flex sm:flex-col lg:flex-row gap-[15px] fixed top-12 right-0 lg:static bg-primary rounded-2xl lg:bg-transparent px-[95px] py-[30px] lg:p-0 items-end text-secondary">
+            <ul class="hidden flex sm:flex-col lg:flex-row gap-[15px] fixed top-12 right-0 lg:static bg-primary rounded-2xl lg:bg-transparent px-[95px] py-[30px] lg:p-0 items-end text-secondary">
                 <label class="block lg:hidden absolute top-4 left-4 text-2xl"><i class='bx bx-x'></i></label>
                 <li><a class=" border-none bg-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary duration-300 ease-in font-primary font-bold text-txt-color" href="#home">Home</a></li>
                 <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#service">Services</a></li>
@@ -31,6 +31,23 @@
             <label class="hidden"></label>
             
         </nav>
+
+        <div class="mt-16 lg:mt-24 text-white lg:w-[40%] md:w-[70%]">
+            <h1 class="text-header font-primary font-bold">Expert Medical Consultation & Advanced Treatment</h1>
+            <p class="my-4 text-default-medium">Reliable, professional, and compassionate healthcare services – because your health matters the most</p>
+            <button class="bg-secondary py-[5px] px-[20px] rounded-lg cursor-pointer hover:bg-transparent duration-300 hover:border border border-transparent hover:border-secondary text-medium">Appointments Now</button>
+
+            <div class="mt-6 sm:mt-16 sm:flex items-center gap-8 text-medium">
+                <div class="flex items-center gap-1">
+                    <i class='bx bxs-phone-call'></i>
+                    <p>+880899887727</p>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class='bx bx-envelope' ></i>
+                    <p>contact@healthdots.com</p>
+                </div>
+            </div>
+        </div>
     </header>
 
 </body>
