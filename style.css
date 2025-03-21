@@ -1,1 +1,29 @@
 @import "tailwindcss";
+@theme{
+    --color-primary: #0084ff;
+    --color-secondary: #34d399;
+    --color-background: #f8fafc;
+    --color-txt-color: #1e293b;
+    --color-gray-txt-color: #1E293BB2;
+    --color-gray-light:  #E5E7EB;
+    --color-white: #ffffff;
+
+    --font-primary: "Poppins", serif;
+    --font-secondary: "Inter", serif;
+    --font-Tertiary: "Racing Sans One", serif;
+
+    --text-header: 32px;
+    --text-sub-header: 42px;
+    --text-medium: 20px
+    --text-default-medium: 18px
+    --text-base: 16px;
+    --text-small: 14px
+    --text-mini-small: 12px;
+
+    --shadow-small:  0 1px 2px rgba(0, 0, 0, 0.25);
+    --shadow-sm-hover: 0 4px 10px #31d6995d;
+
+    --breakpoint-lg: 1100px;
+    --breakpoint-md: 700px;
+    --breakpoint-sm: 500px;
+}

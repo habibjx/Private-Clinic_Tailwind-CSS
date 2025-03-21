@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="max-w-[1840px] mx-auto bg-background text-txt-color">
     
+    <header class=" w-full md:px-[95px] px-[30px] h-[600px]" >
+        <nav class="flex justify-between lg:justify-start items-center gap-10 relative">
+            <div>
+                <img class="w-[80px]" src="./img/Logo-Banner/Logo.png" alt="Logo">
+            </div>
+            <label class="block lg:hidden text-2xl"><i class='bx bx-menu'></i></label>
+
+            <ul class="flex sm:flex-col lg:flex-row gap-[15px] fixed top-12 right-0 lg:static bg-primary rounded-2xl lg:bg-transparent px-[95px] py-[30px] lg:p-0 items-end text-secondary">
+                <label class="block lg:hidden absolute top-4 left-4 text-2xl"><i class='bx bx-x'></i></label>
+                <li><a class=" border-none bg-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary duration-300 ease-in font-primary font-bold text-txt-color" href="#home">Home</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#service">Services</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#doctor">Doctors</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#health">Health Tips</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#review">Reviews</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#about">About Us</a></li>
+                <li><a class=" border border-secondary py-[5px] px-[20px] rounded-[8px] hover:bg-secondary hover:text-txt-color duration-300 ease-in font-primary" href="#contact">Contact Us</a></li>
+            </ul>
+            
+            <label class="hidden"></label>
+            
+        </nav>
+    </header>
+
 </body>
 </html>
