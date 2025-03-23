@@ -4,7 +4,7 @@
     --color-secondary: #34d399;
     --color-background: #f8fafc;
     --color-txt-color: #1e293b;
-    --color-gray-txt-color: #1E293BB2;
+    --color-gray-txt-color: #1E293BB2; 
     --color-gray-light:  #E5E7EB;
     --color-white: #ffffff;
 
@@ -34,4 +34,8 @@ header{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+footer a:hover{
+    color: var(--color-primary);
+    transition: .2s ease;
 }
